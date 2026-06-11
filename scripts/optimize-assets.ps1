@@ -79,7 +79,7 @@ function Optimize-Logo($Path, $MaxDimension) {
   $Output.Dispose()
 }
 
-foreach ($AssetRoot in @("assets", "public\assets")) {
+foreach ($AssetRoot in @("assets")) {
   foreach ($Entry in $LogoTargets.GetEnumerator()) {
     $Path = Join-Path $Root "$AssetRoot\logo\$($Entry.Key)"
     if (Test-Path -LiteralPath $Path) {

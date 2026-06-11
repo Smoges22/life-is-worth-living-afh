@@ -2,7 +2,6 @@ Add-Type -AssemblyName System.Drawing
 
 $Root = (Get-Location).Path
 $ImageRoot = Join-Path $Root "assets\images"
-$PublicImageRoot = Join-Path $Root "public\assets\images"
 $Widths = @(480, 960, 1440)
 $JpegQuality = 82L
 
@@ -70,17 +69,6 @@ function Resize-Jpeg($SourcePath, $OutputPath, $MaxWidth, $Codec, $Quality) {
   $Source.Dispose()
 }
 
-function Copy-ToPublic($SourcePath, $DestinationRoot) {
-  if (-not (Test-Path -LiteralPath $DestinationRoot)) {
-    New-Item -ItemType Directory -Force -Path $DestinationRoot | Out-Null
-  }
-  $DestinationPath = Join-Path $DestinationRoot (Split-Path $SourcePath -Leaf)
-  if (Test-Path -LiteralPath $DestinationPath) {
-    Remove-Item -Force -LiteralPath $DestinationPath
-  }
-  Copy-Item -LiteralPath $SourcePath -Destination $DestinationPath -Force
-}
-
 $Codec = Get-JpegCodec
 $Report = @()
 
@@ -99,13 +87,11 @@ foreach ($Assignment in $Assignments) {
   $SourceImage.Dispose()
 
   Resize-Jpeg $SourcePath $OutputPath 1600 $Codec $JpegQuality
-  Copy-ToPublic $OutputPath $PublicImageRoot
 
   $ResponsiveFiles = @()
   foreach ($Width in $Widths) {
     $ResponsivePath = Join-Path $ImageRoot "$BaseName-$Width.jpg"
     Resize-Jpeg $SourcePath $ResponsivePath $Width $Codec $JpegQuality
-    Copy-ToPublic $ResponsivePath $PublicImageRoot
     $ResponsiveFiles += "$BaseName-$Width.jpg"
   }
 

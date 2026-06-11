@@ -2,7 +2,6 @@ Add-Type -AssemblyName System.Drawing
 
 $Root = (Get-Location).Path
 $AssetRoots = @(
-  (Join-Path $Root "public\assets"),
   (Join-Path $Root "assets")
 )
 
@@ -221,4 +220,4 @@ foreach ($AssetRoot in $AssetRoots) {
   New-PhotoPlaceholder (Join-Path $AssetRoot "images\outdoor-space.jpg") "Outdoor Space" "Safe fresh-air area and garden" "#EEF7EF" $Colors.Sage
 }
 
-Write-Host "Generated real PNG/JPG brand assets under public/assets and mirrored /assets for static serving."
+Write-Host "Generated real PNG/JPG brand assets under assets."

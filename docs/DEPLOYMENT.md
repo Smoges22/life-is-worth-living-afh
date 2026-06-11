@@ -11,7 +11,6 @@ If the final domain changes, replace every instance of `https://www.lifeworthliv
    - `index.html`
    - page folders such as `about/`, `services/`, `gallery/`, `contact/`, `schedule-tour/`
    - `assets/`
-   - `public/assets/`
    - `favicon.png`
    - `apple-touch-icon.png`
    - `sitemap.xml`
@@ -27,7 +26,7 @@ If the final domain changes, replace every instance of `https://www.lifeworthliv
    - Framework Preset: **Other**
    - Root Directory: project root
    - Build Command: leave empty
-   - Output Directory: leave empty
+   - Output Directory: `.`
    - Install Command: leave empty
 4. Add both domains in Vercel:
    - `lifeworthlivingafh.com`
