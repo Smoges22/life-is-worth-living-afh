@@ -29,19 +29,21 @@
     <section class="py-20 bg-white"><div class="mx-auto max-w-7xl px-4 sm-px-6 lg-px-8"><div class="quick-contact-grid grid md-grid-cols-2 lg-grid-cols-4 gap-5"><div class="quick-contact-card"><span>Main Phone</span><strong><a href="tel:+12063543731">(206) 354-3731</a></strong></div><div class="quick-contact-card"><span>Alternate Phone</span><strong><a href="tel:+12063543732">(206) 354-3732</a></strong></div><a class="quick-contact-card" href="mailto:lwlafh@outlook.com"><span>Email Us</span><strong>lwlafh@outlook.com</strong></a><div class="quick-contact-card"><span>Visit Us</span><strong>Burien, Washington</strong></div></div><div class="mt-10 grid lg-grid-cols-2 gap-10 items-start">
       <!-- TODO: Replace REPLACE_WITH_FORM_ID with the live Formspree form ID before launch. -->
       <form class="p-6 sm-p-8 rounded-3xl border shadow-card bg-white" action="https://formspree.io/f/xeewrkrv" method="POST" data-formspree-form autocomplete="off">
-        <h2 class="text-2xl font-extrabold">Send a Message</h2>
-        <p class="mt-2 text-muted">Your message will be sent securely to the care team.</p>
+        <h2 class="text-2xl font-extrabold">Senior Care Inquiry</h2>
+        <p class="mt-2 text-muted">We will contact you as soon as possible to discuss your needs and answer any questions.</p>
         <input type="hidden" name="form_source" value="Contact Page">
         <label class="form-honeypot" aria-hidden="true">Leave this field empty<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
         <div class="mt-6 grid gap-5">
           <label class="block font-semibold" for="contact-full-name">Full Name<span class="sr-only"> required</span><input class="input mt-2" id="contact-full-name" name="full_name" type="text" autocomplete="name" required></label>
-          <label class="block font-semibold" for="contact-phone">Phone Number<input class="input mt-2" id="contact-phone" name="phone" type="tel" autocomplete="tel"></label>
-          <label class="block font-semibold" for="contact-email">Email<span class="sr-only"> required</span><input class="input mt-2" id="contact-email" name="email" type="email" autocomplete="email" required></label>
-          <label class="block font-semibold" for="contact-tour-date">Preferred Tour Date<input class="input mt-2" id="contact-tour-date" name="preferred_tour_date" type="date" autocomplete="off"></label>
-          <label class="block font-semibold" for="contact-message">Message<textarea class="input mt-2" id="contact-message" name="message" rows="5"></textarea></label>
+          <label class="block font-semibold" for="contact-phone">Phone Number<span class="sr-only"> required</span><input class="input mt-2" id="contact-phone" name="phone" type="tel" autocomplete="tel" required></label>
+          <label class="block font-semibold" for="contact-email">Email Address<span class="sr-only"> required</span><input class="input mt-2" id="contact-email" name="email" type="email" autocomplete="email" required></label>
+          <label class="block font-semibold" for="contact-relationship-type">I Am A<span class="sr-only"> required</span><select class="input mt-2" id="contact-relationship-type" name="relationship_type" required><option value="" disabled selected>Select One</option><option>Family Member</option><option>Power of Attorney</option><option>Referral Agent</option><option>Discharge Planner</option><option>Case Manager</option></select></label>
+          <label class="block font-semibold" for="contact-primary-interest">Primary Interest<span class="sr-only"> required</span><select class="input mt-2" id="contact-primary-interest" name="primary_interest" required><option value="" disabled selected>Select One</option><option>Schedule a Private Tour</option><option>Check Room Availability</option><option>Discuss Care Needs</option></select></label>
+          <label class="block font-semibold" for="contact-preferred-timing">Preferred Timing<span class="sr-only"> required</span><select class="input mt-2" id="contact-preferred-timing" name="preferred_timing" required><option value="" disabled selected>Select One</option><option>As Soon As Possible</option><option>This Week</option><option>This Month</option><option>Planning Ahead</option></select></label>
+          <label class="block font-semibold" for="contact-message">Message<textarea class="input mt-2" id="contact-message" name="message" rows="5" placeholder="Tell us a little about your loved one's care needs or any questions you may have."></textarea></label>
         </div>
-        <button class="mt-6 btn btn-primary w-full" type="submit">Send Message</button>
-        <p class="form-status mt-4 text-sm font-bold text-teal" role="status" hidden>Thank you. Your message has been sent to the care team.</p>
+        <button class="mt-6 btn btn-primary w-full" type="submit">Send Inquiry</button>
+        <p class="form-status mt-4 text-sm font-bold text-teal" role="status" hidden>Thank you for contacting Life Is Worth Living AFH. A member of our care team will reach out shortly.</p>
       </form>
       <aside class="space-y-5">
         <div class="p-8 rounded-3xl bg-gray-50 border"><h2 class="text-2xl font-extrabold">Contact Info</h2><div class="mt-5 space-y-4 text-muted"><p><strong class="text-ink">Main Phone:</strong><br><a href="tel:+12063543731">(206) 354-3731</a><br><strong class="text-ink">Alternate Phone:</strong><br><a href="tel:+12063543732">(206) 354-3732</a></p><p><strong class="text-ink">Fax:</strong> (206) 260-7448</p><p><strong class="text-ink">Email:</strong> <a href="mailto:lwlafh@outlook.com">lwlafh@outlook.com</a></p><p><strong class="text-ink">Address:</strong> 13205 12th Avenue Southwest, Burien, WA 98146</p><p><strong class="text-ink">Tours &amp; Visits:</strong> By Appointment</p></div></div>
