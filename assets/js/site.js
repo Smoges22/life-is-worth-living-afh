@@ -103,9 +103,58 @@
     });
   }
 
+  function enhanceMobileNavigation() {
+    var headers = document.querySelectorAll("[data-mobile-nav]");
+    headers.forEach(function (header) {
+      var button = header.querySelector(".mobile-menu-toggle");
+      var menu = header.querySelector(".premium-mobile-menu");
+      if (!button || !menu) {
+        return;
+      }
+
+      function setOpen(isOpen) {
+        button.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        if (isOpen) {
+          menu.hidden = false;
+          requestAnimationFrame(function () {
+            menu.classList.add("is-open");
+          });
+        } else {
+          menu.classList.remove("is-open");
+          menu.hidden = true;
+        }
+      }
+
+      button.addEventListener("click", function (event) {
+        event.stopPropagation();
+        setOpen(button.getAttribute("aria-expanded") !== "true");
+      });
+
+      menu.addEventListener("click", function (event) {
+        if (event.target.closest("a")) {
+          setOpen(false);
+        }
+      });
+
+      document.addEventListener("click", function (event) {
+        if (!header.contains(event.target)) {
+          setOpen(false);
+        }
+      });
+
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+          setOpen(false);
+          button.focus();
+        }
+      });
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     buildLightbox();
     enhanceImages();
     enhanceMailtoForms();
+    enhanceMobileNavigation();
   });
 })();
