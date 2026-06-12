@@ -83,23 +83,46 @@
     });
   }
 
-  function enhanceMailtoForms() {
-    var forms = document.querySelectorAll("[data-mailto-form]");
+  function enhanceFormspreeForms() {
+    var forms = document.querySelectorAll("[data-formspree-form]");
     forms.forEach(function (form) {
       form.addEventListener("submit", function (event) {
+        if (!window.fetch) {
+          return;
+        }
         event.preventDefault();
-        var to = form.getAttribute("data-mailto-to") || "";
         var data = new FormData(form);
-        var lines = [];
-        data.forEach(function (value, key) {
-          if (value) {
-            lines.push(key + ": " + value);
+        var status = form.querySelector(".form-status");
+        var submitButton = form.querySelector("[type='submit']");
+        if (submitButton) {
+          submitButton.disabled = true;
+          submitButton.textContent = "Sending...";
+        }
+        fetch(form.action, {
+          method: "POST",
+          body: data,
+          headers: { Accept: "application/json" }
+        }).then(function (response) {
+          if (!response.ok) {
+            throw new Error("Form submission failed");
+          }
+          form.reset();
+          if (status) {
+            status.hidden = false;
+          }
+        }).catch(function () {
+          HTMLFormElement.prototype.submit.call(form);
+        }).finally(function () {
+          if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.textContent = submitButton.dataset.originalText || "Send Message";
           }
         });
-        var subject = encodeURIComponent("Contact request from Life Worth Living website");
-        var body = encodeURIComponent(lines.join("\n"));
-        window.location.href = "mailto:" + to + "?subject=" + subject + "&body=" + body;
       });
+      var submitButton = form.querySelector("[type='submit']");
+      if (submitButton) {
+        submitButton.dataset.originalText = submitButton.textContent;
+      }
     });
   }
 
@@ -154,7 +177,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     buildLightbox();
     enhanceImages();
-    enhanceMailtoForms();
+    enhanceFormspreeForms();
     enhanceMobileNavigation();
   });
 })();
