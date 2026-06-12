@@ -83,8 +83,29 @@
     });
   }
 
+  function enhanceMailtoForms() {
+    var forms = document.querySelectorAll("[data-mailto-form]");
+    forms.forEach(function (form) {
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        var to = form.getAttribute("data-mailto-to") || "";
+        var data = new FormData(form);
+        var lines = [];
+        data.forEach(function (value, key) {
+          if (value) {
+            lines.push(key + ": " + value);
+          }
+        });
+        var subject = encodeURIComponent("Contact request from Life Worth Living website");
+        var body = encodeURIComponent(lines.join("\n"));
+        window.location.href = "mailto:" + to + "?subject=" + subject + "&body=" + body;
+      });
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     buildLightbox();
     enhanceImages();
+    enhanceMailtoForms();
   });
 })();
