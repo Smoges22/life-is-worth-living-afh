@@ -135,11 +135,13 @@
       if (!button || !menu) {
         return;
       }
+      menu.setAttribute("aria-hidden", "true");
 
       function setOpen(isOpen) {
         window.clearTimeout(closeTimer);
         button.setAttribute("aria-expanded", isOpen ? "true" : "false");
         button.setAttribute("aria-label", isOpen ? "Close navigation menu" : "Open navigation menu");
+        menu.setAttribute("aria-hidden", isOpen ? "false" : "true");
         if (isOpen) {
           menu.hidden = false;
           requestAnimationFrame(function () {
@@ -181,10 +183,16 @@
     });
   }
 
-  document.addEventListener("DOMContentLoaded", function () {
+  function init() {
     buildLightbox();
     enhanceImages();
     enhanceFormspreeForms();
     enhanceMobileNavigation();
-  });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
 })();
