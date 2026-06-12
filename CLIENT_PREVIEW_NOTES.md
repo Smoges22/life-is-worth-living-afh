@@ -51,7 +51,7 @@ Screenshots are saved in `client-preview-qa/screenshots/`:
 ## Client Approval Needed
 
 - Confirm all business information is final:
-  - Phone: `(206) 354-3731`
+  - Phone: `(206) 354-3731` / `(206) 354-3732`
   - Fax: `(206) 260-7448`
   - Email: `lwlafh@outlook.com`
   - Address: `13205 12th Avenue Southwest, Burien, WA 98146`
