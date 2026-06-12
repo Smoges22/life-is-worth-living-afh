@@ -131,12 +131,15 @@
     headers.forEach(function (header) {
       var button = header.querySelector(".mobile-menu-toggle");
       var menu = header.querySelector(".premium-mobile-menu");
+      var closeTimer;
       if (!button || !menu) {
         return;
       }
 
       function setOpen(isOpen) {
+        window.clearTimeout(closeTimer);
         button.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        button.setAttribute("aria-label", isOpen ? "Close navigation menu" : "Open navigation menu");
         if (isOpen) {
           menu.hidden = false;
           requestAnimationFrame(function () {
@@ -144,7 +147,11 @@
           });
         } else {
           menu.classList.remove("is-open");
-          menu.hidden = true;
+          closeTimer = window.setTimeout(function () {
+            if (button.getAttribute("aria-expanded") !== "true") {
+              menu.hidden = true;
+            }
+          }, 220);
         }
       }
 
@@ -159,14 +166,14 @@
         }
       });
 
-      document.addEventListener("click", function (event) {
+      document.addEventListener("pointerdown", function (event) {
         if (!header.contains(event.target)) {
           setOpen(false);
         }
       });
 
       document.addEventListener("keydown", function (event) {
-        if (event.key === "Escape") {
+        if (event.key === "Escape" && button.getAttribute("aria-expanded") === "true") {
           setOpen(false);
           button.focus();
         }
