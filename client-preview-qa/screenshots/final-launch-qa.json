@@ -1,0 +1,500 @@
+{
+  "checkedAt": "2026-06-12T02:48:42.700Z",
+  "routes": [
+    {
+      "name": "home",
+      "route": "/",
+      "status": 200,
+      "data": {
+        "hasHomeHero": true,
+        "hasInteriorHero": false,
+        "hasLightInteriorHeader": false,
+        "galleryBrightCards": 0,
+        "galleryHasHeavyOverlayMarkup": false,
+        "lightboxReady": true,
+        "footerHasBrandHeading": false,
+        "footerHasPrivacy": true,
+        "footerHasTerms": true,
+        "footerActiveLinks": 0,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "transparentLogo": true,
+        "activeDesktopLinks": 1,
+        "activeMobileLinks": 1,
+        "hasMainPhone": true,
+        "hasAlternatePhone": true,
+        "formActions": [],
+        "overflowX": false
+      }
+    },
+    {
+      "name": "about",
+      "route": "/about/",
+      "status": 200,
+      "data": {
+        "hasHomeHero": false,
+        "hasInteriorHero": true,
+        "hasLightInteriorHeader": true,
+        "galleryBrightCards": 0,
+        "galleryHasHeavyOverlayMarkup": false,
+        "lightboxReady": true,
+        "footerHasBrandHeading": false,
+        "footerHasPrivacy": true,
+        "footerHasTerms": true,
+        "footerActiveLinks": 0,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "transparentLogo": true,
+        "activeDesktopLinks": 1,
+        "activeMobileLinks": 1,
+        "hasMainPhone": true,
+        "hasAlternatePhone": true,
+        "formActions": [],
+        "overflowX": false
+      }
+    },
+    {
+      "name": "services",
+      "route": "/services/",
+      "status": 200,
+      "data": {
+        "hasHomeHero": false,
+        "hasInteriorHero": true,
+        "hasLightInteriorHeader": true,
+        "galleryBrightCards": 0,
+        "galleryHasHeavyOverlayMarkup": false,
+        "lightboxReady": true,
+        "footerHasBrandHeading": false,
+        "footerHasPrivacy": true,
+        "footerHasTerms": true,
+        "footerActiveLinks": 0,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "transparentLogo": true,
+        "activeDesktopLinks": 1,
+        "activeMobileLinks": 1,
+        "hasMainPhone": true,
+        "hasAlternatePhone": true,
+        "formActions": [],
+        "overflowX": false
+      }
+    },
+    {
+      "name": "gallery",
+      "route": "/gallery/",
+      "status": 200,
+      "data": {
+        "hasHomeHero": false,
+        "hasInteriorHero": true,
+        "hasLightInteriorHeader": true,
+        "galleryBrightCards": 7,
+        "galleryHasHeavyOverlayMarkup": false,
+        "lightboxReady": true,
+        "footerHasBrandHeading": false,
+        "footerHasPrivacy": true,
+        "footerHasTerms": true,
+        "footerActiveLinks": 0,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "transparentLogo": true,
+        "activeDesktopLinks": 1,
+        "activeMobileLinks": 1,
+        "hasMainPhone": true,
+        "hasAlternatePhone": true,
+        "formActions": [],
+        "overflowX": false
+      }
+    },
+    {
+      "name": "contact",
+      "route": "/contact/",
+      "status": 200,
+      "data": {
+        "hasHomeHero": false,
+        "hasInteriorHero": true,
+        "hasLightInteriorHeader": true,
+        "galleryBrightCards": 0,
+        "galleryHasHeavyOverlayMarkup": false,
+        "lightboxReady": true,
+        "footerHasBrandHeading": false,
+        "footerHasPrivacy": true,
+        "footerHasTerms": true,
+        "footerActiveLinks": 0,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "transparentLogo": true,
+        "activeDesktopLinks": 1,
+        "activeMobileLinks": 1,
+        "hasMainPhone": true,
+        "hasAlternatePhone": true,
+        "formActions": [
+          {
+            "action": "https://formspree.io/f/xeewrkrv",
+            "method": "post",
+            "fields": [
+              "form_source",
+              "_gotcha",
+              "full_name",
+              "phone",
+              "email",
+              "relationship_type",
+              "primary_interest",
+              "preferred_timing",
+              "message"
+            ]
+          }
+        ],
+        "overflowX": false
+      }
+    },
+    {
+      "name": "schedule-tour",
+      "route": "/schedule-tour/",
+      "status": 200,
+      "data": {
+        "hasHomeHero": false,
+        "hasInteriorHero": true,
+        "hasLightInteriorHeader": true,
+        "galleryBrightCards": 0,
+        "galleryHasHeavyOverlayMarkup": false,
+        "lightboxReady": true,
+        "footerHasBrandHeading": false,
+        "footerHasPrivacy": true,
+        "footerHasTerms": true,
+        "footerActiveLinks": 0,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "transparentLogo": true,
+        "activeDesktopLinks": 1,
+        "activeMobileLinks": 1,
+        "hasMainPhone": true,
+        "hasAlternatePhone": true,
+        "formActions": [
+          {
+            "action": "https://formspree.io/f/xeewrkrv",
+            "method": "post",
+            "fields": [
+              "form_source",
+              "_gotcha",
+              "full_name",
+              "phone",
+              "email",
+              "relationship_type",
+              "primary_interest",
+              "preferred_timing",
+              "message"
+            ]
+          }
+        ],
+        "overflowX": false
+      }
+    },
+    {
+      "name": "privacy-policy",
+      "route": "/privacy-policy/",
+      "status": 200,
+      "data": {
+        "hasHomeHero": false,
+        "hasInteriorHero": true,
+        "hasLightInteriorHeader": true,
+        "galleryBrightCards": 0,
+        "galleryHasHeavyOverlayMarkup": false,
+        "lightboxReady": true,
+        "footerHasBrandHeading": false,
+        "footerHasPrivacy": true,
+        "footerHasTerms": true,
+        "footerActiveLinks": 1,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "transparentLogo": true,
+        "activeDesktopLinks": 0,
+        "activeMobileLinks": 1,
+        "hasMainPhone": true,
+        "hasAlternatePhone": true,
+        "formActions": [],
+        "overflowX": false
+      }
+    },
+    {
+      "name": "terms",
+      "route": "/terms/",
+      "status": 200,
+      "data": {
+        "hasHomeHero": false,
+        "hasInteriorHero": true,
+        "hasLightInteriorHeader": true,
+        "galleryBrightCards": 0,
+        "galleryHasHeavyOverlayMarkup": false,
+        "lightboxReady": true,
+        "footerHasBrandHeading": false,
+        "footerHasPrivacy": true,
+        "footerHasTerms": true,
+        "footerActiveLinks": 1,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "transparentLogo": true,
+        "activeDesktopLinks": 0,
+        "activeMobileLinks": 1,
+        "hasMainPhone": true,
+        "hasAlternatePhone": true,
+        "formActions": [],
+        "overflowX": false
+      }
+    }
+  ],
+  "docs": [
+    {
+      "name": "sitemap",
+      "route": "/sitemap.xml",
+      "status": 200,
+      "bodySample": "\n  https://www.lifeworthlivingafh.com/\n  https://www.lifeworthlivingafh.com/about/\n  https://www.lifeworthlivingafh.com/services/\n  https://www.lifeworthlivingafh.com/gallery/\n  https://www.lifeworthlivingafh.com/contact"
+    },
+    {
+      "name": "robots",
+      "route": "/robots.txt",
+      "status": 200,
+      "bodySample": "User-agent: *\nAllow: /\n\nSitemap: https://www.lifeworthlivingafh.com/sitemap.xml"
+    }
+  ],
+  "mobileNavigation": [
+    {
+      "name": "home",
+      "route": "/",
+      "initial": {
+        "hasButton": true,
+        "hidden": true,
+        "expanded": "false",
+        "activeLinks": 1,
+        "overflowX": false
+      },
+      "opened": {
+        "hidden": false,
+        "expanded": "true"
+      },
+      "escapeClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "outsideClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "linkClickClosed": {
+        "hidden": true,
+        "expanded": "false"
+      }
+    },
+    {
+      "name": "about",
+      "route": "/about/",
+      "initial": {
+        "hasButton": true,
+        "hidden": true,
+        "expanded": "false",
+        "activeLinks": 1,
+        "overflowX": false
+      },
+      "opened": {
+        "hidden": false,
+        "expanded": "true"
+      },
+      "escapeClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "outsideClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "linkClickClosed": {
+        "hidden": true,
+        "expanded": "false"
+      }
+    },
+    {
+      "name": "services",
+      "route": "/services/",
+      "initial": {
+        "hasButton": true,
+        "hidden": true,
+        "expanded": "false",
+        "activeLinks": 1,
+        "overflowX": false
+      },
+      "opened": {
+        "hidden": false,
+        "expanded": "true"
+      },
+      "escapeClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "outsideClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "linkClickClosed": {
+        "hidden": true,
+        "expanded": "false"
+      }
+    },
+    {
+      "name": "gallery",
+      "route": "/gallery/",
+      "initial": {
+        "hasButton": true,
+        "hidden": true,
+        "expanded": "false",
+        "activeLinks": 1,
+        "overflowX": false
+      },
+      "opened": {
+        "hidden": false,
+        "expanded": "true"
+      },
+      "escapeClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "outsideClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "linkClickClosed": {
+        "hidden": true,
+        "expanded": "false"
+      }
+    },
+    {
+      "name": "contact",
+      "route": "/contact/",
+      "initial": {
+        "hasButton": true,
+        "hidden": true,
+        "expanded": "false",
+        "activeLinks": 1,
+        "overflowX": false
+      },
+      "opened": {
+        "hidden": false,
+        "expanded": "true"
+      },
+      "escapeClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "outsideClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "linkClickClosed": {
+        "hidden": true,
+        "expanded": "false"
+      }
+    },
+    {
+      "name": "schedule-tour",
+      "route": "/schedule-tour/",
+      "initial": {
+        "hasButton": true,
+        "hidden": true,
+        "expanded": "false",
+        "activeLinks": 1,
+        "overflowX": false
+      },
+      "opened": {
+        "hidden": false,
+        "expanded": "true"
+      },
+      "escapeClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "outsideClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "linkClickClosed": {
+        "hidden": true,
+        "expanded": "false"
+      }
+    },
+    {
+      "name": "privacy-policy",
+      "route": "/privacy-policy/",
+      "initial": {
+        "hasButton": true,
+        "hidden": true,
+        "expanded": "false",
+        "activeLinks": 1,
+        "overflowX": false
+      },
+      "opened": {
+        "hidden": false,
+        "expanded": "true"
+      },
+      "escapeClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "outsideClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "linkClickClosed": {
+        "hidden": true,
+        "expanded": "false"
+      }
+    },
+    {
+      "name": "terms",
+      "route": "/terms/",
+      "initial": {
+        "hasButton": true,
+        "hidden": true,
+        "expanded": "false",
+        "activeLinks": 1,
+        "overflowX": false
+      },
+      "opened": {
+        "hidden": false,
+        "expanded": "true"
+      },
+      "escapeClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "outsideClosed": {
+        "hidden": true,
+        "expanded": "false"
+      },
+      "linkClickClosed": {
+        "hidden": true,
+        "expanded": "false"
+      }
+    }
+  ],
+  "galleryLightbox": {
+    "foundImage": true,
+    "opened": true,
+    "escapeClosed": true
+  },
+  "imageValidation": {
+    "checked": 27,
+    "missingLocalImages": []
+  },
+  "responseErrors": [],
+  "formspree": {
+    "endpoint": "https://formspree.io/f/xeewrkrv",
+    "contactTest": {
+      "status": 200,
+      "ok": true,
+      "response": {
+        "next": "/thanks",
+        "ok": true
+      }
+    },
+    "scheduleTourTest": {
+      "status": 200,
+      "ok": true,
+      "response": {
+        "next": "/thanks",
+        "ok": true
+      }
+    }
+  },
+  "consoleErrors": [],
+  "screenshotsDir": "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots"
+}
