@@ -1,0 +1,65 @@
+{
+  "ogImage": {
+    "path": "assets/social/og-image.jpg",
+    "dimensions": "1200x630",
+    "exists": true
+  },
+  "socialMeta": [
+    {
+      "page": "index.html",
+      "ogImage": true,
+      "twitterImage": true,
+      "twitterCard": true
+    },
+    {
+      "page": "about/index.html",
+      "ogImage": true,
+      "twitterImage": true,
+      "twitterCard": true
+    },
+    {
+      "page": "services/index.html",
+      "ogImage": true,
+      "twitterImage": true,
+      "twitterCard": true
+    },
+    {
+      "page": "gallery/index.html",
+      "ogImage": true,
+      "twitterImage": true,
+      "twitterCard": true
+    },
+    {
+      "page": "contact/index.html",
+      "ogImage": true,
+      "twitterImage": true,
+      "twitterCard": true
+    },
+    {
+      "page": "schedule-tour/index.html",
+      "ogImage": true,
+      "twitterImage": true,
+      "twitterCard": true
+    },
+    {
+      "page": "privacy-policy/index.html",
+      "ogImage": true,
+      "twitterImage": true,
+      "twitterCard": true
+    },
+    {
+      "page": "terms/index.html",
+      "ogImage": true,
+      "twitterImage": true,
+      "twitterCard": true
+    }
+  ],
+  "assetReferencesChecked": 86,
+  "missingAssetReferences": [],
+  "screenshots": [
+    "client-preview-qa/screenshots/premium-home-hero-desktop.png",
+    "client-preview-qa/screenshots/premium-home-hero-mobile.png",
+    "client-preview-qa/screenshots/premium-contact-map-mobile.png"
+  ],
+  "notes": "Network QA returned no 4xx asset responses and no console errors. Lazy-loaded images may report incomplete before browser viewport loading, so file-reference validation is used for broken asset status."
+}
