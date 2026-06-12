@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-06-12T05:45:08.428Z",
+  "results": {
+    "homeDesktop": {
+      "overflowX": false,
+      "heroGlass": "blur(8px)"
+    },
+    "homeMobile": {
+      "overflowX": false,
+      "headline": "28.86px"
+    },
+    "galleryDesktop": {
+      "overflowX": false,
+      "cardRadius": "24px",
+      "imageShare": 85,
+      "featuredImageHeight": 520,
+      "captionHeight": 92
+    },
+    "galleryMobile": {
+      "overflowX": false,
+      "imageHeight": 280,
+      "imageShare": 75
+    },
+    "footerDesktop": {
+      "overflowX": false,
+      "logoWidth": 325,
+      "addressBg": "rgba(255, 255, 255, 0.07)"
+    },
+    "footerMobile": {
+      "overflowX": false,
+      "logoWidth": 315
+    }
+  },
+  "responseErrors": [],
+  "consoleErrors": [],
+  "screenshots": [
+    "client-preview-qa/screenshots/premium-saas-home-desktop.png",
+    "client-preview-qa/screenshots/premium-saas-home-mobile.png",
+    "client-preview-qa/screenshots/premium-saas-gallery-desktop.png",
+    "client-preview-qa/screenshots/premium-saas-gallery-mobile.png",
+    "client-preview-qa/screenshots/premium-saas-footer-desktop.png",
+    "client-preview-qa/screenshots/premium-saas-footer-mobile.png"
+  ]
+}
