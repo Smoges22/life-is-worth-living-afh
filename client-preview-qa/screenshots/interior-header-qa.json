@@ -1,0 +1,246 @@
+{
+  "checkedAt": "2026-06-12T02:22:09.571Z",
+  "results": [
+    {
+      "name": "home",
+      "route": "/",
+      "status": 200,
+      "desktop": {
+        "hasInteriorHero": false,
+        "hasHomeHero": true,
+        "hasHeroCopy": false,
+        "statCards": 0,
+        "footerHasBrandHeading": false,
+        "footerHasTagline": true,
+        "footerHasTerms": true,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "logoSrc": "http://127.0.0.1:4177/assets/logo/logo-primary.png",
+        "overflowX": false,
+        "heroBg": ""
+      }
+    },
+    {
+      "name": "about",
+      "route": "/about/",
+      "status": 200,
+      "desktop": {
+        "hasInteriorHero": true,
+        "hasHomeHero": false,
+        "hasHeroCopy": true,
+        "statCards": 3,
+        "footerHasBrandHeading": false,
+        "footerHasTagline": true,
+        "footerHasTerms": true,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "logoSrc": "http://127.0.0.1:4177/assets/logo/logo-primary.png",
+        "overflowX": false,
+        "heroBg": "linear-gradient(135deg, rgb(255, 253, 248) 0%, rgb(247, 251, 251) 42%, rgb(237, 246, 239) 100%)"
+      },
+      "mobile": {
+        "before": {
+          "hidden": true,
+          "expanded": "false"
+        },
+        "opened": {
+          "hidden": false,
+          "expanded": "true"
+        },
+        "escapeClosed": {
+          "hidden": true,
+          "expanded": "false"
+        },
+        "outsideClosed": {
+          "hidden": true,
+          "expanded": "false",
+          "overflowX": false
+        }
+      }
+    },
+    {
+      "name": "services",
+      "route": "/services/",
+      "status": 200,
+      "desktop": {
+        "hasInteriorHero": true,
+        "hasHomeHero": false,
+        "hasHeroCopy": true,
+        "statCards": 3,
+        "footerHasBrandHeading": false,
+        "footerHasTagline": true,
+        "footerHasTerms": true,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "logoSrc": "http://127.0.0.1:4177/assets/logo/logo-primary.png",
+        "overflowX": false,
+        "heroBg": "linear-gradient(135deg, rgb(255, 253, 248) 0%, rgb(247, 251, 251) 42%, rgb(237, 246, 239) 100%)"
+      },
+      "mobile": {
+        "before": {
+          "hidden": true,
+          "expanded": "false"
+        },
+        "opened": {
+          "hidden": false,
+          "expanded": "true"
+        },
+        "escapeClosed": {
+          "hidden": true,
+          "expanded": "false"
+        },
+        "outsideClosed": {
+          "hidden": true,
+          "expanded": "false",
+          "overflowX": false
+        }
+      }
+    },
+    {
+      "name": "gallery",
+      "route": "/gallery/",
+      "status": 200,
+      "desktop": {
+        "hasInteriorHero": true,
+        "hasHomeHero": false,
+        "hasHeroCopy": true,
+        "statCards": 3,
+        "footerHasBrandHeading": false,
+        "footerHasTagline": true,
+        "footerHasTerms": true,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "logoSrc": "http://127.0.0.1:4177/assets/logo/logo-primary.png",
+        "overflowX": false,
+        "heroBg": "linear-gradient(135deg, rgb(255, 253, 248) 0%, rgb(247, 251, 251) 42%, rgb(237, 246, 239) 100%)"
+      },
+      "mobile": {
+        "before": {
+          "hidden": true,
+          "expanded": "false"
+        },
+        "opened": {
+          "hidden": false,
+          "expanded": "true"
+        },
+        "escapeClosed": {
+          "hidden": true,
+          "expanded": "false"
+        },
+        "outsideClosed": {
+          "hidden": true,
+          "expanded": "false",
+          "overflowX": false
+        }
+      }
+    },
+    {
+      "name": "contact",
+      "route": "/contact/",
+      "status": 200,
+      "desktop": {
+        "hasInteriorHero": true,
+        "hasHomeHero": false,
+        "hasHeroCopy": true,
+        "statCards": 3,
+        "footerHasBrandHeading": false,
+        "footerHasTagline": true,
+        "footerHasTerms": true,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "logoSrc": "http://127.0.0.1:4177/assets/logo/logo-primary.png",
+        "overflowX": false,
+        "heroBg": "linear-gradient(135deg, rgb(255, 253, 248) 0%, rgb(247, 251, 251) 42%, rgb(237, 246, 239) 100%)"
+      },
+      "mobile": {
+        "before": {
+          "hidden": true,
+          "expanded": "false"
+        },
+        "opened": {
+          "hidden": false,
+          "expanded": "true"
+        },
+        "escapeClosed": {
+          "hidden": true,
+          "expanded": "false"
+        },
+        "outsideClosed": {
+          "hidden": true,
+          "expanded": "false",
+          "overflowX": false
+        }
+      }
+    },
+    {
+      "name": "schedule-tour",
+      "route": "/schedule-tour/",
+      "status": 200,
+      "desktop": {
+        "hasInteriorHero": true,
+        "hasHomeHero": false,
+        "hasHeroCopy": true,
+        "statCards": 3,
+        "footerHasBrandHeading": false,
+        "footerHasTagline": true,
+        "footerHasTerms": true,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "logoSrc": "http://127.0.0.1:4177/assets/logo/logo-primary.png",
+        "overflowX": false,
+        "heroBg": "linear-gradient(135deg, rgb(255, 253, 248) 0%, rgb(247, 251, 251) 42%, rgb(237, 246, 239) 100%)"
+      },
+      "mobile": {
+        "before": {
+          "hidden": true,
+          "expanded": "false"
+        },
+        "opened": {
+          "hidden": false,
+          "expanded": "true"
+        },
+        "escapeClosed": {
+          "hidden": true,
+          "expanded": "false"
+        },
+        "outsideClosed": {
+          "hidden": true,
+          "expanded": "false",
+          "overflowX": false
+        }
+      }
+    },
+    {
+      "name": "privacy-policy",
+      "route": "/privacy-policy/",
+      "status": 200,
+      "desktop": {
+        "hasInteriorHero": true,
+        "hasHomeHero": false,
+        "hasHeroCopy": true,
+        "statCards": 3,
+        "footerHasBrandHeading": false,
+        "footerHasTagline": true,
+        "footerHasTerms": true,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "logoSrc": "http://127.0.0.1:4177/assets/logo/logo-primary.png",
+        "overflowX": false,
+        "heroBg": "linear-gradient(135deg, rgb(255, 253, 248) 0%, rgb(247, 251, 251) 42%, rgb(237, 246, 239) 100%)"
+      }
+    },
+    {
+      "name": "terms",
+      "route": "/terms/",
+      "status": 200,
+      "desktop": {
+        "hasInteriorHero": true,
+        "hasHomeHero": false,
+        "hasHeroCopy": true,
+        "statCards": 3,
+        "footerHasBrandHeading": false,
+        "footerHasTagline": true,
+        "footerHasTerms": true,
+        "designerHref": "https://www.afhdesignsbysam.com/",
+        "logoSrc": "http://127.0.0.1:4177/assets/logo/logo-primary.png",
+        "overflowX": false,
+        "heroBg": "linear-gradient(135deg, rgb(255, 253, 248) 0%, rgb(247, 251, 251) 42%, rgb(237, 246, 239) 100%)"
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "screenshotsDir": "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots"
+}
