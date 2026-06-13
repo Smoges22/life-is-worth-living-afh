@@ -184,7 +184,7 @@
   }
 
   function enhanceScrollReveal() {
-    var targets = document.querySelectorAll("main section, .care-overview-card, .tour-command-card, .decision-checklist article, .quick-contact-card, .service-card, .clinical-card");
+    var targets = document.querySelectorAll("main section, .care-overview-card, .service-detail-card, .tour-command-card, .decision-checklist article, .quick-contact-card, .service-card, .clinical-card, .care-cta-band, .conversion-band");
     if (!targets.length || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       return;
     }
