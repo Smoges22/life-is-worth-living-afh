@@ -183,11 +183,39 @@
     });
   }
 
+  function enhanceScrollReveal() {
+    var targets = document.querySelectorAll("main section, .care-overview-card, .tour-command-card, .decision-checklist article, .quick-contact-card, .service-card, .clinical-card");
+    if (!targets.length || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      return;
+    }
+    targets.forEach(function (target) {
+      target.classList.add("reveal-on-scroll");
+    });
+    if (!("IntersectionObserver" in window)) {
+      targets.forEach(function (target) {
+        target.classList.add("is-visible");
+      });
+      return;
+    }
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+    targets.forEach(function (target) {
+      observer.observe(target);
+    });
+  }
+
   function init() {
     buildLightbox();
     enhanceImages();
     enhanceFormspreeForms();
     enhanceMobileNavigation();
+    enhanceScrollReveal();
   }
 
   if (document.readyState === "loading") {
