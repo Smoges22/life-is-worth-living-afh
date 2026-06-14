@@ -1,0 +1,84 @@
+{
+  "results": [
+    {
+      "route": "/about/",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1200
+      },
+      "screenshot": "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\about-photography-desktop.png",
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "targetImages": [
+        {
+          "src": "../assets/images/team/zekariase-profile.jpg",
+          "currentSrc": "http://127.0.0.1:4177/assets/images/team/zekariase-profile-960.jpg",
+          "naturalWidth": 720,
+          "naturalHeight": 720
+        }
+      ]
+    },
+    {
+      "route": "/about/",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 1200,
+        "isMobile": true
+      },
+      "screenshot": "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\about-photography-mobile-390.png",
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "targetImages": [
+        {
+          "src": "../assets/images/team/zekariase-profile.jpg",
+          "currentSrc": "http://127.0.0.1:4177/assets/images/team/zekariase-profile-480.jpg",
+          "naturalWidth": 358,
+          "naturalHeight": 358
+        }
+      ]
+    },
+    {
+      "route": "/gallery/",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1200
+      },
+      "screenshot": "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\gallery-photography-desktop.png",
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "targetImages": [
+        {
+          "src": "../assets/images/living-room-new.jpg",
+          "currentSrc": "http://127.0.0.1:4177/assets/images/living-room-new-960.jpg",
+          "naturalWidth": 835,
+          "naturalHeight": 626
+        }
+      ]
+    },
+    {
+      "route": "/gallery/",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 1200,
+        "isMobile": true
+      },
+      "screenshot": "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\gallery-photography-mobile-390.png",
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "targetImages": [
+        {
+          "src": "../assets/images/living-room-new.jpg",
+          "currentSrc": "http://127.0.0.1:4177/assets/images/living-room-new-480.jpg",
+          "naturalWidth": 358,
+          "naturalHeight": 269
+        }
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "badResponses": []
+}
