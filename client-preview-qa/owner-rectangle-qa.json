@@ -1,0 +1,83 @@
+{
+  "desktop": {
+    "status": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1100
+    },
+    "screenshot": "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\about-owner-rectangle-desktop.png",
+    "cssHref": [
+      "http://127.0.0.1:4177/styles.css?v=ownerrect2026"
+    ],
+    "horizontalOverflow": false,
+    "zekariase": {
+      "src": "../assets/images/team/zekariase-profile.jpg",
+      "currentSrc": "http://127.0.0.1:4177/assets/images/team/zekariase-profile-960.jpg",
+      "naturalWidth": 720,
+      "naturalHeight": 576,
+      "renderedWidth": 535,
+      "renderedHeight": 401,
+      "aspectRatio": "4 / 3",
+      "objectFit": "cover",
+      "objectPosition": "50% 0%",
+      "borderRadius": "20px",
+      "clipPath": "none"
+    },
+    "alem": {
+      "src": "../assets/images/owner-alem.jpg",
+      "currentSrc": "http://127.0.0.1:4177/assets/images/owner-alem.jpg",
+      "naturalWidth": 1200,
+      "naturalHeight": 900,
+      "renderedWidth": 535,
+      "renderedHeight": 401,
+      "aspectRatio": "4 / 3",
+      "objectFit": "cover",
+      "objectPosition": "50% 0%",
+      "borderRadius": "20px",
+      "clipPath": "none"
+    },
+    "brokenImages": []
+  },
+  "mobile": {
+    "status": 200,
+    "viewport": {
+      "width": 390,
+      "height": 1000,
+      "isMobile": true
+    },
+    "screenshot": "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\about-owner-rectangle-mobile.png",
+    "cssHref": [
+      "http://127.0.0.1:4177/styles.css?v=ownerrect2026"
+    ],
+    "horizontalOverflow": false,
+    "zekariase": {
+      "src": "../assets/images/team/zekariase-profile.jpg",
+      "currentSrc": "http://127.0.0.1:4177/assets/images/team/zekariase-profile-480.jpg",
+      "naturalWidth": 358,
+      "naturalHeight": 287,
+      "renderedWidth": 311,
+      "renderedHeight": 233,
+      "aspectRatio": "4 / 3",
+      "objectFit": "cover",
+      "objectPosition": "50% 0%",
+      "borderRadius": "16px",
+      "clipPath": "none"
+    },
+    "alem": {
+      "src": "../assets/images/owner-alem.jpg",
+      "currentSrc": "http://127.0.0.1:4177/assets/images/owner-alem.jpg",
+      "naturalWidth": 1200,
+      "naturalHeight": 900,
+      "renderedWidth": 311,
+      "renderedHeight": 233,
+      "aspectRatio": "4 / 3",
+      "objectFit": "cover",
+      "objectPosition": "50% 0%",
+      "borderRadius": "16px",
+      "clipPath": "none"
+    },
+    "brokenImages": []
+  },
+  "consoleErrors": [],
+  "badResponses": []
+}
