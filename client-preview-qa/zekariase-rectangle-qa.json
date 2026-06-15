@@ -1,0 +1,49 @@
+{
+  "desktop": {
+    "status": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1100
+    },
+    "screenshot": "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\about-zekariase-rectangle-desktop.png",
+    "statusText": "About Life Worth Living | Christian-Owned Adult Family Home",
+    "horizontalOverflow": false,
+    "profileImages": [
+      {
+        "src": "../assets/images/team/zekariase-profile.jpg",
+        "currentSrc": "http://127.0.0.1:4177/assets/images/team/zekariase-profile-960.jpg",
+        "naturalWidth": 720,
+        "naturalHeight": 576,
+        "renderedWidth": 535,
+        "renderedHeight": 401,
+        "alt": "Zekariase, MSN, RN, owner of Life Is Worth Living Adult Family Home"
+      }
+    ],
+    "brokenImages": []
+  },
+  "mobile": {
+    "status": 200,
+    "viewport": {
+      "width": 390,
+      "height": 1000,
+      "isMobile": true
+    },
+    "screenshot": "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\about-zekariase-rectangle-mobile.png",
+    "statusText": "About Life Worth Living | Christian-Owned Adult Family Home",
+    "horizontalOverflow": false,
+    "profileImages": [
+      {
+        "src": "../assets/images/team/zekariase-profile.jpg",
+        "currentSrc": "http://127.0.0.1:4177/assets/images/team/zekariase-profile-480.jpg",
+        "naturalWidth": 358,
+        "naturalHeight": 287,
+        "renderedWidth": 311,
+        "renderedHeight": 233,
+        "alt": "Zekariase, MSN, RN, owner of Life Is Worth Living Adult Family Home"
+      }
+    ],
+    "brokenImages": []
+  },
+  "consoleErrors": [],
+  "badResponses": []
+}
