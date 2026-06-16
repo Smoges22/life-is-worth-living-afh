@@ -1,0 +1,552 @@
+{
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "kind": "desktop",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "title": "Life Worth Living | RN-Owned Adult Family Home in Burien, WA",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": null,
+      "footerCards": 0,
+      "formspreeActions": [],
+      "formFields": [],
+      "mapIframes": [
+        {
+          "src": "https://www.google.com/maps?q=13205%2012th%20Avenue%20Southwest%2C%20Burien%2C%20WA%2098146&output=embed",
+          "width": 1323,
+          "height": 460
+        }
+      ],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "kind": "mobile",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 1000,
+        "isMobile": true
+      },
+      "title": "Life Worth Living | RN-Owned Adult Family Home in Burien, WA",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": null,
+      "footerCards": 0,
+      "formspreeActions": [],
+      "formFields": [],
+      "mapIframes": [
+        {
+          "src": "https://www.google.com/maps?q=13205%2012th%20Avenue%20Southwest%2C%20Burien%2C%20WA%2098146&output=embed",
+          "width": 388,
+          "height": 420
+        }
+      ],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "about",
+      "route": "/about/",
+      "kind": "desktop",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "title": "About Life Worth Living | Christian-Owned Adult Family Home",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": {
+        "currentSrc": "http://127.0.0.1:4177/assets/images/team/zekariase-profile-960.jpg",
+        "renderedWidth": 535,
+        "renderedHeight": 401,
+        "aspectRatio": "4 / 3",
+        "objectFit": "cover",
+        "objectPosition": "50% 0%",
+        "borderRadius": "20px",
+        "clipPath": "none"
+      },
+      "footerCards": 0,
+      "formspreeActions": [],
+      "formFields": [],
+      "mapIframes": [],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "about",
+      "route": "/about/",
+      "kind": "mobile",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 1000,
+        "isMobile": true
+      },
+      "title": "About Life Worth Living | Christian-Owned Adult Family Home",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": {
+        "currentSrc": "http://127.0.0.1:4177/assets/images/team/zekariase-profile-480.jpg",
+        "renderedWidth": 311,
+        "renderedHeight": 233,
+        "aspectRatio": "4 / 3",
+        "objectFit": "cover",
+        "objectPosition": "50% 0%",
+        "borderRadius": "16px",
+        "clipPath": "none"
+      },
+      "footerCards": 0,
+      "formspreeActions": [],
+      "formFields": [],
+      "mapIframes": [],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "services",
+      "route": "/services/",
+      "kind": "desktop",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "title": "Services | RN-Led Senior Care in Burien, WA",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": null,
+      "footerCards": 0,
+      "formspreeActions": [],
+      "formFields": [],
+      "mapIframes": [],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "services",
+      "route": "/services/",
+      "kind": "mobile",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 1000,
+        "isMobile": true
+      },
+      "title": "Services | RN-Led Senior Care in Burien, WA",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": null,
+      "footerCards": 0,
+      "formspreeActions": [],
+      "formFields": [],
+      "mapIframes": [],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "gallery",
+      "route": "/gallery/",
+      "kind": "desktop",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "title": "Gallery | Life Worth Living Adult Family Home",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": null,
+      "footerCards": 0,
+      "formspreeActions": [],
+      "formFields": [],
+      "mapIframes": [],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "gallery",
+      "route": "/gallery/",
+      "kind": "mobile",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 1000,
+        "isMobile": true
+      },
+      "title": "Gallery | Life Worth Living Adult Family Home",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": null,
+      "footerCards": 0,
+      "formspreeActions": [],
+      "formFields": [],
+      "mapIframes": [],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "contact",
+      "route": "/contact/",
+      "kind": "desktop",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "title": "Contact Life Worth Living | Adult Family Home in Burien",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": null,
+      "footerCards": 0,
+      "formspreeActions": [
+        "https://formspree.io/f/xeewrkrv"
+      ],
+      "formFields": [
+        "form_source",
+        "_gotcha",
+        "full_name",
+        "phone",
+        "email",
+        "relationship_type",
+        "primary_interest",
+        "preferred_timing",
+        "message"
+      ],
+      "mapIframes": [
+        {
+          "src": "https://www.google.com/maps?q=13205%2012th%20Avenue%20Southwest%2C%20Burien%2C%20WA%2098146&output=embed",
+          "width": 1323,
+          "height": 460
+        }
+      ],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "contact",
+      "route": "/contact/",
+      "kind": "mobile",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 1000,
+        "isMobile": true
+      },
+      "title": "Contact Life Worth Living | Adult Family Home in Burien",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": null,
+      "footerCards": 0,
+      "formspreeActions": [
+        "https://formspree.io/f/xeewrkrv"
+      ],
+      "formFields": [
+        "form_source",
+        "_gotcha",
+        "full_name",
+        "phone",
+        "email",
+        "relationship_type",
+        "primary_interest",
+        "preferred_timing",
+        "message"
+      ],
+      "mapIframes": [
+        {
+          "src": "https://www.google.com/maps?q=13205%2012th%20Avenue%20Southwest%2C%20Burien%2C%20WA%2098146&output=embed",
+          "width": 388,
+          "height": 420
+        }
+      ],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "schedule-tour",
+      "route": "/schedule-tour/",
+      "kind": "desktop",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "title": "Schedule a Tour | Life Worth Living Adult Family Home",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": null,
+      "footerCards": 0,
+      "formspreeActions": [
+        "https://formspree.io/f/xeewrkrv"
+      ],
+      "formFields": [
+        "form_source",
+        "_gotcha",
+        "full_name",
+        "phone",
+        "email",
+        "relationship_type",
+        "primary_interest",
+        "preferred_timing",
+        "message"
+      ],
+      "mapIframes": [
+        {
+          "src": "https://www.google.com/maps?q=13205%2012th%20Avenue%20Southwest%2C%20Burien%2C%20WA%2098146&output=embed",
+          "width": 1323,
+          "height": 460
+        }
+      ],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "schedule-tour",
+      "route": "/schedule-tour/",
+      "kind": "mobile",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 1000,
+        "isMobile": true
+      },
+      "title": "Schedule a Tour | Life Worth Living Adult Family Home",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": null,
+      "footerCards": 0,
+      "formspreeActions": [
+        "https://formspree.io/f/xeewrkrv"
+      ],
+      "formFields": [
+        "form_source",
+        "_gotcha",
+        "full_name",
+        "phone",
+        "email",
+        "relationship_type",
+        "primary_interest",
+        "preferred_timing",
+        "message"
+      ],
+      "mapIframes": [
+        {
+          "src": "https://www.google.com/maps?q=13205%2012th%20Avenue%20Southwest%2C%20Burien%2C%20WA%2098146&output=embed",
+          "width": 388,
+          "height": 420
+        }
+      ],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "privacy-policy",
+      "route": "/privacy-policy/",
+      "kind": "desktop",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "title": "Privacy Policy | Life Worth Living",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": null,
+      "footerCards": 0,
+      "formspreeActions": [],
+      "formFields": [],
+      "mapIframes": [],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "privacy-policy",
+      "route": "/privacy-policy/",
+      "kind": "mobile",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 1000,
+        "isMobile": true
+      },
+      "title": "Privacy Policy | Life Worth Living",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": null,
+      "footerCards": 0,
+      "formspreeActions": [],
+      "formFields": [],
+      "mapIframes": [],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "terms",
+      "route": "/terms/",
+      "kind": "desktop",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "title": "Terms | Life Worth Living",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": null,
+      "footerCards": 0,
+      "formspreeActions": [],
+      "formFields": [],
+      "mapIframes": [],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    },
+    {
+      "name": "terms",
+      "route": "/terms/",
+      "kind": "mobile",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 1000,
+        "isMobile": true
+      },
+      "title": "Terms | Life Worth Living",
+      "cssHref": [
+        "http://127.0.0.1:4177/styles.css?v=finalreview2026"
+      ],
+      "horizontalOverflow": false,
+      "brokenImages": [],
+      "alemPhotoCount": 0,
+      "ownerPhoto": null,
+      "footerCards": 0,
+      "formspreeActions": [],
+      "formFields": [],
+      "mapIframes": [],
+      "socialPreview": "https://www.lifeworthlivingafh.com/assets/social/og-image.jpg?v=2",
+      "twitterCard": "summary_large_image"
+    }
+  ],
+  "screenshots": [
+    "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\final-review-home-desktop.png",
+    "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\final-review-home-mobile.png",
+    "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\final-review-about-desktop.png",
+    "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\final-review-about-mobile.png",
+    "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\final-review-services-desktop.png",
+    "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\final-review-services-mobile.png",
+    "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\final-review-gallery-desktop.png",
+    "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\final-review-gallery-mobile.png",
+    "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\final-review-contact-desktop.png",
+    "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\final-review-contact-mobile.png"
+  ],
+  "mobileMenu": {
+    "before": "false",
+    "afterOpen": {
+      "expanded": "true",
+      "hidden": false,
+      "openClass": true
+    },
+    "afterEscape": {
+      "expanded": "false",
+      "hidden": true,
+      "openClass": false
+    },
+    "afterOutside": {
+      "expanded": "false",
+      "hidden": true,
+      "openClass": false
+    },
+    "afterLink": {
+      "url": "http://127.0.0.1:4177/services/",
+      "expanded": "false"
+    }
+  },
+  "forms": {
+    "contactEndpointPresent": true,
+    "scheduleEndpointPresent": true,
+    "requiredFieldsPresent": true
+  },
+  "map": {
+    "contactMapCount": 1,
+    "contactMobileMap": {
+      "src": "https://www.google.com/maps?q=13205%2012th%20Avenue%20Southwest%2C%20Burien%2C%20WA%2098146&output=embed",
+      "width": 388,
+      "height": 420
+    }
+  },
+  "socialPreview": {
+    "ogReferenced": true,
+    "twitterLargeImage": true
+  },
+  "consoleErrors": [],
+  "badLocalResponses": [],
+  "failedRequests": []
+}
