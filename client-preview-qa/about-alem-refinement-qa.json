@@ -1,0 +1,35 @@
+{
+  "consoleErrors": [],
+  "badResponses": [],
+  "desktop": {
+    "httpStatus": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1100
+    },
+    "screenshot": "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\about-alem-refined-desktop.png",
+    "status": "About Life Worth Living | Christian-Owned Adult Family Home",
+    "horizontalOverflow": false,
+    "alemImageCount": 0,
+    "oldAccentCount": 0,
+    "badgeText": "Faith-Inspired Care",
+    "alemCardText": "FAITH-INSPIRED CARE\nAlem\n\nBusiness and Healthcare Experience\n\nCNA\nBusiness Degree\n\nAlem brings both business and healthcare experience to the home.\n\nShe earned her Business Degree in 2005 and has worked as a Certified Nursing Assistant, dedicating herself to supporting and caring for individuals with compassion, professionalism, and respect.\n\nSupporting residents and families with compassion, professionalism, and respect.",
+    "brokenImages": []
+  },
+  "mobile": {
+    "httpStatus": 200,
+    "viewport": {
+      "width": 390,
+      "height": 1000,
+      "isMobile": true
+    },
+    "screenshot": "C:\\Users\\samue\\Documents\\GitHub\\Website Projects\\life-is-worth-living-afh\\client-preview-qa\\screenshots\\about-alem-refined-mobile.png",
+    "status": "About Life Worth Living | Christian-Owned Adult Family Home",
+    "horizontalOverflow": false,
+    "alemImageCount": 0,
+    "oldAccentCount": 0,
+    "badgeText": "Faith-Inspired Care",
+    "alemCardText": "FAITH-INSPIRED CARE\nAlem\n\nBusiness and Healthcare Experience\n\nCNA\nBusiness Degree\n\nAlem brings both business and healthcare experience to the home.\n\nShe earned her Business Degree in 2005 and has worked as a Certified Nursing Assistant, dedicating herself to supporting and caring for individuals with compassion, professionalism, and respect.\n\nSupporting residents and families with compassion, professionalism, and respect.",
+    "brokenImages": []
+  }
+}
